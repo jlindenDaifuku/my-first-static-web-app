@@ -1,4 +1,4 @@
 {
-    "route": "*",
-    "allowedRoles": ["administrator"]
+    "route": "/index.html",
+    "allowedRoles": ["NoOne"]
 }
