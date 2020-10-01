@@ -1,4 +1,10 @@
 {
-    "route": "/index.html",
-    "allowedRoles": ["NoOne"]
+    "routes": [
+        {
+            "route": "/*",
+            "serve": "/index.html",
+            "statusCode": 200,
+            "allowedRoles": ["NoOne"]
+        }
+    ]
 }
