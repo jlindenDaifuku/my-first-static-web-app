@@ -9,10 +9,17 @@
 </head>
 
 
+<!-- create the body, setting the background image -->
 <body style="background-origin: content-box; background-image: url('moddrawingimage.jpg');background-repeat: no-repeat;background-position: center; align-content: center;"> 
   <main>
+        <!-- show a page titel -->
         <div class="title"><h1>Daifuku North America CAD Software Token Usage</h1></div>
-          <div align="center">
+
+        <!-- show a log out button -->
+        <a style="margin-right: 10px;" class="btn btn-primary btn-sm" href="/.auth/logout" v-if="user.userDetails">Log out</a>
+        
+        <!-- create a div to hold the power bi report in an iframe -->
+        <div align="center">
             <iframe width="1024" height="768" src="https://app.powerbi.com/view?r=eyJrIjoiY2M1ODVmZDAtYTE4Yi00Y2NkLTk3YWYtYjVkM2NkZDg3ODYwIiwidCI6IjUwZGE2M2JhLWU0ZTQtNGIwMC1hYTAzLTYzNmVjMTQ2YWU1NyIsImMiOjN9" frameborder="0" allowFullScreen="true"></iframe>
           </div>
         </div>
