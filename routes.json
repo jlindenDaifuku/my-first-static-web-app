@@ -6,7 +6,7 @@
             "allowedRoles": ["anonymous"]
         },
         {
-            "route": "/*",
+            "route": "*",
             "serve": "/index.html",
             "statusCode": 200,
             "allowedRoles": ["manager"]
