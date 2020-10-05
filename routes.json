@@ -15,11 +15,11 @@
     "platformErrorOverrides": [
         {
           "errorType": "NotFound",
-          "serve": "/login"
+          "serve": "/.auth/login/aad"
         },
         {
           "errorType": "Unauthenticated",
-          "serve": "/login"
+          "serve": "/.auth/login/aad"
         }
       ]
 }
