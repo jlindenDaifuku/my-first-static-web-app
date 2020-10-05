@@ -1,29 +1,5 @@
 {
     "routes": [
-        {
-            "route": "/login",
-            "serve": "/.auth/login/aad",
-            "allowedRoles": ["anonymous"]
-        },
-        {
-            "route": "/404.html",
-            "allowedroles":["anonymous"]
-        },
-        {
-            "route": "*",
-            "serve": "/index.html",
-            "statusCode": 200,
-            "allowedRoles": ["manager"]
-        }
-    ],
-    "platformErrorOverrides": [
-        {
-          "errorType": "NotFound",
-          "serve": "/404.html"
-        },
-        {
-          "errorType": "Unauthenticated",
-          "serve": "/.auth/login/aad"
-        }
+
       ]
 }
