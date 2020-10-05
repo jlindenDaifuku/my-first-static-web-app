@@ -15,7 +15,7 @@
     "platformErrorOverrides": [
         {
           "errorType": "NotFound",
-          "serve": "/custom-404.html"
+          "serve": "/login"
         },
         {
           "errorType": "Unauthenticated",
