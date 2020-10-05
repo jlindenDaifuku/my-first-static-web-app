@@ -6,6 +6,10 @@
             "allowedRoles": ["anonymous"]
         },
         {
+            "route": "/404.html",
+            "allowedroles":["anonymous"]
+        },
+        {
             "route": "*",
             "serve": "/index.html",
             "statusCode": 200,
