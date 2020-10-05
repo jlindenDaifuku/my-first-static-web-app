@@ -1,7 +1,7 @@
 {
     "routes": [
         {
-            "route": "/404.html",
+            "route": "/Custom_401.html",
             "allowedRoles": ["anonymous"]
         },
         {
@@ -14,7 +14,7 @@
     "platformErrorOverrides": [
         {
         "errorType": "Unauthenticated",
-        "serve": "/404.html"
+        "serve": "/Custom_401.html"
         }
     ]
 }
